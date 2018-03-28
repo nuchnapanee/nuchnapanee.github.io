@@ -1,0 +1,86 @@
+/*
+To compile:
+0.  Visit https://github.com/jonycheung/deadsimple-less-watch-compiler
+1.  Open Terminal
+2.  Type this code at the project folder:
+    less-watch-compiler less css
+*/
+@import "https://fonts.googleapis.com/css?family=Kanit:300,300i&subset=thai";
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+/*---General Setting---*/
+body {
+  padding-top: 0px;
+}
+h1 {
+  color: black;
+  font-family: 'Kanit';
+}
+header.masthead {
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*---Button---*/
+.btn-primary {
+  color: #ffffff;
+  background-color: black;
+  border-color: #000000;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:active:focus,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active:focus,
+.btn-primary[disabled]:active:focus,
+fieldset[disabled] .btn-primary:active:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: black;
+  border-color: #000000;
+}
+.btn-primary .badge {
+  color: black;
+  background-color: #ffffff;
+}
+/*---Responsive (Bootstrap Standard)---*/
+/* Only Large devices (LG) */
+/* Only Medium devices (MD) */
+/* Only Small devices (SM) */
+/* Only Extra Small devices (XS) */
+@media only screen and (max-width: 768px) {
+  h1 {
+    color: blue;
+  }
+}
